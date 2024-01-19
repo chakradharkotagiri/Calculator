@@ -1,0 +1,135 @@
+.ocontainer{
+    height: 700px;
+    width: 600px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container{
+
+    border: 3px solid black;
+flex-direction: row;
+justify-content: center;
+/* border: 2px solid black; */
+width: 600px;
+height: 650px;
+justify-content: center;   
+background-color:grey;
+background: linear-gradient(to right, #48484b, #1E1C1F);
+border-radius: 30px;
+
+}
+.main{
+    height: 200px;
+    width: 600px;
+    display: flex;
+}
+.main1{
+    width: 300px;
+    height: 200px;
+}
+
+.main11{
+    width: 300px;
+height: 100px;
+display: flex;
+margin-left: 60px;
+
+}
+.main12{
+    width: 300px;
+height: 100px;
+display: grid;
+justify-content:space-around;
+margin-left: 30px;
+}
+.item2{
+
+display: flex;
+height: 80px;
+width: 220px;
+background-color: rgb(98, 98, 98);
+justify-content: center;
+align-items: center;
+font-size: 60px;
+color: white;
+
+}
+.blank{
+    height: 150px;
+    /* border: 5px solid rebeccapurple; */
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+.box{
+
+    display: grid;
+    height: 120px;
+    width: 500px;
+    background-color: rgb(162, 175, 119);
+    justify-content: space-around;
+    align-items:flex-end;
+    border-radius: 30px;
+    font-size: 6 0px;
+
+
+}
+.items{
+    display: flex;
+    /* border: 10px solid blue;    */
+    justify-content: center;
+}
+.item{
+margin: 10px;
+display: flex;
+height: 80px;
+width: 100px;
+background-color: rgb(98, 98, 98);
+justify-content: center;
+align-items: center;
+font-size: 60px;
+color: white;
+cursor: pointer;
+
+
+/* border-color: black; */
+}
+.item1{
+    margin: 10px;
+    display: flex;
+    height: 80px;
+    width: 100px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    /* border-color: black; */
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    }
+.main2{
+        width: 300px;
+        height: 200px;
+        display: flex;
+
+        }
+
+
+.main21{
+    height: 200px;
+    width: 100px;
+}
+.main22{
+    height: 180px;
+    width: 100px;
+    background-color: rgb(248, 85, 9);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    font-size: 30px;
+    margin-left: 30px;
+    cursor: pointer;
+}
